@@ -1,8 +1,10 @@
+import starIcon from "/images/icon-star.svg";
+
 function ReviewItem({ starCount, reviewer }) {
   const stars = Array.from({ length: starCount }, (_, index) => (
     <img
       key={index}
-      src="/images/icon-star.svg"
+      src={starIcon}
       alt=""
       className="w-4 h-4"
     />
