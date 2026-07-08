@@ -20,6 +20,7 @@ function ReviewsList() {
     <div className="flex flex-col gap-4">
       {reviews.map(review => (
         <ReviewItem
+          key={review.reviewer}
           starCount={review.starCount}
           reviewer={review.reviewer}
         />
