@@ -5,8 +5,8 @@ function ReviewItem({ starCount, reviewer }) {
     <img
       key={index}
       src={starIcon}
-      alt=""
-      className="w-4 h-4"
+      alt="Star icon"
+      className="h-auto"
     />
   ))
 
