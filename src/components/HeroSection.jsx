@@ -3,7 +3,7 @@ import ReviewsList from "./ReviewsList";
 
 function HeroSection() {
   return (
-    <div>
+    <div className="flex flex-col gap-8">
       <HeaderSection />
 
       <ReviewsList />
