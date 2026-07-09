@@ -20,7 +20,7 @@ const testimonials = [
 
 function TestimonialsList() {
   return (
-    <div>
+    <div className="flex flex-col gap-4">
       {testimonials.map(tst => {
         <TestimonialItem
           key={tst.name}
