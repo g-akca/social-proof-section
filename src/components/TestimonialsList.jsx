@@ -1,3 +1,5 @@
+import TestimonialItem from "./TestimonialItem";
+
 const testimonials = [
   {
     name: "Colton Smith",
@@ -19,9 +21,14 @@ const testimonials = [
 function TestimonialsList() {
   return (
     <div>
-      <TestimonialItem />
-      <TestimonialItem />
-      <TestimonialItem />
+      {testimonials.map(tst => {
+        <TestimonialItem
+          key={tst.name}
+          name={tst.name}
+          title={tst.title}
+          message={tst.message}
+        />
+      })}
     </div>
   )
 }
