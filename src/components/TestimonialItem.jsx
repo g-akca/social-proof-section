@@ -10,7 +10,7 @@ function TestimonialItem({ name, title, message, image }) {
         </div>
       </div>
 
-      <p className="leading-[130%] font-medium">“ {message} ”</p>
+      <p className="leading-[130%] font-medium tracking-[-0.3px]">“ {message} ”</p>
     </div>
   )
 }
