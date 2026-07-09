@@ -1,6 +1,6 @@
 function TestimonialItem({ name, title, message, image }) {
   return (
-    <div className="bg-purple-900 rounded-lg p-8 text-white text-[17px] flex flex-col gap-8">
+    <div className="bg-purple-900 rounded-lg p-8 text-white text-[17px] flex flex-col gap-8 tablet:px-[41.5px]">
       <div className="flex gap-6 items-center">
         <img src={image} alt={name} className="w-10 aspect-square rounded-full" />
 
