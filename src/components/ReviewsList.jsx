@@ -17,7 +17,7 @@ const reviews = [
 
 function ReviewsList() {
   return (
-    <div className="flex flex-col gap-4 w-full max-w-113.25">
+    <div className="flex flex-col gap-4 w-full max-w-113.25 desktop:max-w-none">
       {reviews.map(review => (
         <ReviewItem
           key={review.reviewer}
