@@ -25,7 +25,7 @@ const testimonials = [
 
 function TestimonialsList() {
   return (
-    <div className="flex flex-col gap-4 w-full max-w-113.25 desktop:max-w-277.5">
+    <div className="flex flex-col gap-4 w-full max-w-113.25 desktop:max-w-277.5 desktop:grid desktop:grid-cols-[repeat(3,350px)] desktop:justify-between desktop:h-64">
       {testimonials.map(tst => (
         <TestimonialItem
           key={tst.name}
