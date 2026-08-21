@@ -1,4 +1,4 @@
-import starIcon from "/images/icon-star.svg";
+const starIcon = `${import.meta.env.BASE_URL}images/icon-star.svg`
 
 function ReviewItem({ starCount, reviewer, className }) {
   const stars = Array.from({ length: starCount }, (_, index) => (
